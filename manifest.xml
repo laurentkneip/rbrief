@@ -1,0 +1,19 @@
+<package>
+  <description brief="rbrief">
+
+     rbrief
+
+  </description>
+  <author>Laurent Kneip</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/rbrief</url>
+  <depend package="roscpp"/>
+  <depend package="opencv2"/>
+  <export>
+    <cpp cflags="-I${prefix}/include" lflags=" -L${prefix}/lib -lrbrief"/>
+  </export>
+
+</package>
+
+
